@@ -1,0 +1,43 @@
+
+.box {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+ }
+ 
+ .box1 {
+    background-color: red;
+    position: absolute;
+   top: 5px;
+   left: 5px;
+   z-index: 3;
+ }
+ 
+ .box2 {
+    background-color: green;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+ }
+ 
+ .box3 {
+    background-color: blue;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+ }
+
+/*
+
+POSITION Z-INDEX
+
+é conhecido como ELEMENT STACKING
+
+O atributo "position: z-index" trata das camadas de sobreposição dos elementos na página, por exemplo.
+Por padrão o elemento mostrado por cima dos outros é sempre o ultimo elemento do HTML, caso quisermos alterar estar ordem,
+utlizamos o z-index para alterar o valor da camada.
+
+Neste exemplo acima, a box 1 é o primeiro elemento do HTML, sendo assim a caixa vermelha deveria ser mostrada la atrás das outras,
+porém usando o z-index e passando ela para a camanda de número 3, a caixa vermelha será mostrada na frente das demais.
+
+*/

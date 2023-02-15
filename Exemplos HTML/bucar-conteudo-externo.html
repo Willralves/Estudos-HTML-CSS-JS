@@ -1,0 +1,58 @@
+<!-- Buscar conteúdos externos para colocar na sua pagina e não depender dos recursos do servidor -->
+
+<!-- Incorporando um vídeo do youtube na página -->
+
+<iframe
+width="1000" 
+height="650" 
+src="https://www.youtube.com/embed/iQkN0Lo3Kwo" 
+title="YouTube video player" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+allowfullscreen
+>
+</iframe>
+
+<!-- Incorporando um mapa do google na página -->
+
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220895.34554228248!2d-51.317225929600724!3d-30.108795735464483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95199cd2566acb1d%3A0x603111a89f87e91f!2sPorto%20Alegre%2C%20RS!5e0!3m2!1spt-BR!2sbr!4v1675620495210!5m2!1spt-BR!2sbr" 
+width="600" 
+height="450" 
+style="border:0;" 
+allowfullscreen="" 
+loading="lazy" 
+referrerpolicy="no-referrer-when-downgrade"
+>
+
+</iframe>
+
+
+
+<!-- 
+A tag iframe permite busdcar conteudos em páginas de terceiros.
+
+Por exemplo se quisermos apresentar um vídeo que está hospedado no site do youtube, podemos fazer da maneira
+feita acima, trazendo na propriedade "src" o link do video.
+
+width = largura do player de video
+height= altura do player de video 
+src = link do player de video
+title = titulo do video
+frameborder = bordas do video
+
+allow= 
+autoplay (para habiltiar o recurso de iniciar o video automaticamente) 
+gyroscope (para quando o usuário assistir no celular, e virar o celular de lado, o vídeo automaticamente se adapta); 
+picture-in-picture (para quando o usuário troca a página, o vídeo continue sendo reproduzido em uma tela menor no canto da pagina)
+
+allowfullscreen = permite que usuário coloque o video em full screen, habilitando a opção no player do video.
+
+
+OBS: No youtube, ao pegarmos um video e clicarmos em compartilhar, existe uma opção chamada "INCORPORAR",
+quando clicamos nela, abre uma janela com a tag iframe para podermos copiar e colar em nosso HTML.
+
+Para incorporar um mapa, podemos ir no google, pesquisar o local e no menu, existe a opção "compartilhar ou incorporar mapa", e ali também temos
+a tag iframe.
+
+-->

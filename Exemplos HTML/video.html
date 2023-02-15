@@ -1,0 +1,38 @@
+<!-- Adicionar video à pagina -->
+
+<video
+controls 
+width="800px"
+height="400px"
+autoplay
+preload="auto"
+loop
+muted
+poster="./assets/ball.png"
+>
+
+<source src="./assets/rocket.mp4" type="video/mp4">
+    <p>Estre browser não suporta vídeo, baixe-o aqui</p>
+</video>
+
+
+
+<!--
+
+controls = tag colocada para liberar os controladores de play/pause do video.
+
+autoplay = inicia tocando o vídeo automaticamente
+
+preload = 
+"auto" (inicia o carregamento do video antes de clicar em play)
+"metadata" (carrega somente o basico que é necessário para entender o tamanho do conteúdo do vídeo)
+"none "(não faz preload de nada antes do usuário apertar o play)      
+
+loop = quando o video chegar no final, ele irá voltar a tocar do inicio novamente em looping.
+
+muted = para que o vídeo inicie mutado, sem som.
+
+poster = carrega uma imagem para deixar no fundo do vídeo antes dele ser iniciado, pode ser usado como thumbs de video.
+
+
+-->

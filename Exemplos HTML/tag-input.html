@@ -1,0 +1,137 @@
+
+
+
+
+
+<!--
+
+<input> 
+
+ATRIBUTOS COMUNS:
+
+    - autocomplete = Digamos que coloque email no autocomplete, o navegador ira verificar o email mais usado e irá autocompletar;
+    - autofocus = Apenas um autofocus por pagina;
+    - disabled
+    - readonly
+    - name
+    - form = Sempre que tiver o atributo form para linkar com algum formulario, é obrigatorio usar o atributo name para linkar o nome ou email da pessoa;
+    - required = Para obrigar o preenchimento de um input
+    - placeholder
+
+-------------------------------------------------
+
+<input type="password">
+
+ATRIBUTOS:
+
+    - minlength / maxlength
+        * Num minimo ou maximo de caracteres para este campo
+
+    - pattern
+        * Expressão regular para validar o que está sendo digitado neste campo
+        * Altamente recomendado o uso de um padrão de segurança alto de senhas
+        * Exemplo: Queremos que uma senha contenha caracteres hexadecimais de no minimo 4 e maximo 8 caracteres
+            * pattern="[0-9a-fA-F]{4,8}"
+            * Pode ser usado junto com o atributo title="mensagem informando ao usuario qual o padrão de senha que deve seguir"
+
+    - placeholder
+
+    - inputmode
+        * Poderá alterar o uso do teclado em smartphones.
+        * Exemplo: Queremos que o cliente digite apenas números
+            * inputmode="numeric"
+
+    - autocomplete
+        * on = permite a sugestão de: new-password ou current-password
+        * off = desabilita a opção de autocompletar
+        * new-password = o navegador poderá sugerir uma nova senha
+
+
+-------------------------------------------------
+
+
+<input type="email"> 
+
+    Espera que o usuário digite um email.
+    Irá validar se o valor digitado é um email.
+
+ATRIBUTOS:
+
+    - placeholder
+    - readonly / disabled
+    - value
+    - required
+
+    - multiple
+        * O campo irá receber 1 ou mais emails separados por virgula
+    
+    - minlength / maxlength
+
+    - size
+        * Valor numerico indicando quantos caracteres esse email deve ter
+    
+    - pattern
+        * Uso de expressão regular (regex) para validar o campo, exemplo:
+            * pattern="[.+@rocketseat\.com\.br]"
+    
+    - list
+        * O id de uma tag <datalist> que está no mesmo documento
+        * <datalist> irá conter uma lista de valores pré-definidos a fim de sugerir ao usuario.
+            * Os valores do datalist que não forem compativeis com o campo, não serão mostrados ao usuario.
+
+
+-------------------------------------------------
+
+<input type="url"> 
+
+ATRIBUTOS:
+
+    - placeholder
+    - readonly / disabled
+    - value
+    - required
+    - minlength / maxlength
+    - disabled
+    - size
+    - pattern
+    - list
+    - title
+    
+    - spellcheck       
+        * Habilita a correção ortográfica neste input, deve ser "true" ou "false"
+
+
+
+-------------------------------------------------
+
+
+<input type="file"> 
+
+ATRIBUTOS:
+
+    - value
+        * Contém o arquivo a ser enviado
+    
+    - accept
+        * Descreve quais tipos de arquivos serão aceitos
+        * Exemplo: .doc, .docx, .pdf, audio/*, image/png, .png
+
+    - files
+        * A lista de arquivo ou arquivos
+    
+    - multiple
+
+    OBS: Quando formos usar o input do tipo file, necessitamos colocar dentro da tag form o atributo:
+        - enctype="multipart/form-data"
+        - method="post"
+        
+    
+-------------------------------------------------
+
+
+
+
+    
+
+
+-->

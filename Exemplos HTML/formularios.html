@@ -1,0 +1,113 @@
+<form id="meu-formulario" action="" method="post">
+    <fieldset>
+        <legend>Descrição do legend</legend>
+        <input type="text">
+        <button form="meu-formulario">Enviar</button>
+    </fieldset>
+</form>
+
+<!-- USANDO O DATALIST -->
+
+<input type="text" list="lista-de-frutas" placeholder="Escolha uma fruta">
+
+<datalist id="lista-de-frutas">
+    <option>Maçã</option>
+    <option>Laranja</option>
+    <option>Morango</option>
+    <option>Abacaxi</option>
+</datalist>
+
+
+
+
+
+
+<!--
+    <form> 
+
+ - Elemento que irá definir um formulario
+ - É um container estilo <section> ou <footer>
+    
+ ATRIBUTOS BASICOS
+ - action
+ - method
+ 
+ OBS.: 
+ - Se o action ficar vazio, os dados serão enviados para a mesma página ao ser recarregado.
+ - Se o method ficar vazio ou não for declarado, por padrão é o method GET.
+
+ -------------------------------------------
+
+ <fieldset>
+    - Agrupamento de campos que tenham o mesmo propósito
+    - Serve para deixar o html mais semantico e com maior acessibilidade.
+
+ ATRIBUTOS ESPECIAIS:
+ - disabled
+    - Desabilita todos os elementos internos;
+    - Os campos não serão enviados ao submeter o formulario.
+
+ - form
+    - Permite que linke um id de um formulario ao qual esse fieldset pertence;
+    - Não precisa estar dentro do formulario se tiver o id;
+
+ - name
+    - Serve apenas para definir um nome do grupo para deixar melhor agrupado e melhor escrito o seu fieldset
+
+ -------------------------------------------
+
+ <legend>
+    - Um fieldset sempre virá acompanhado de um legend.
+    - Trata-se do nome do agrupamento que irá aparecer na tela.
+    - Deve ser o primeiro elemento dentro do fieldset.
+
+ -------------------------------------------
+
+ <label>
+    - Associar e identificar uma ou mais tag de entrada de dados;
+    - Você poderá clicar no label para dar foco na entrada de dados.
+
+ ATRIBUTOS:
+
+ - for
+    - Para fazer a conexao entre este lable e uma tag de entrada de dados como por exemplo <input id="nomeColocadoNoForDoLabel">;
+    - Serve para colocar o id do input;
+    - Só funciona com alguns elementos específicos;
+        - button, input (not hidden), meter, output, progress, select, textarea.
+
+ -------------------------------------------
+
+ <button>
+    - Representa um botão;
+    - É usado para enviar formulários;
+    - É estilizado pelo user agent (Navegador);
+
+ ATRIBUTOS COMUNS:
+
+ - type
+    - submit
+    - reset
+    - button
+
+ - autofocus
+ - disabled
+ - name
+ - value
+ - form
+
+ -------------------------------------------
+
+ <datalist>
+    - Lista de valores como sugestão a uma tag <input>
+    - Valores sugestivos e não obrigatórios (o usuario pode digitar outro valor caso desejar)
+    
+ EXEMPLO:
+ 
+ <datalist id="lista-de-frutas">
+    <option> Laranja </option>
+    <option> Banana </option>
+    <option> Maçã </option>
+    <option> Morango </option>
+
+
+-->

@@ -1,0 +1,104 @@
+
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+
+    font-family: 'Roboto', sans-serif;
+
+    letter-spacing: 0px;
+    word-spacing: 0px;
+
+    line-height: 1.2;
+
+    text-transform: uppercase;
+    text-decoration: underline;
+
+    text-align: center;
+
+    text-shadow: 1px 1px 1px red,
+                 1px 1px 1px green;
+
+}
+
+/*
+
+font-family:
+Neste exemplo acima, ele verificou se o computador possui a fonte "Times New Roman", caso não tenha, irá usar a "Times", caso também
+não tenha, ele irá usar uma fonte "serif".
+
+A lista de fontes deve ser colocada em ordem de prioridade.
+
+---------------------------------
+
+font-weight:
+Equivale ao peso da fonte, podendo ser bold, bolder, lighter, normal.
+
+---------------------------------
+
+font-style:
+É o estilo da fonte, se ela será italic, oblique ou normal.
+
+---------------------------------
+
+font-size:
+É o tamanho da fonte.
+
+---------------------------------
+
+letter-spacing e word-spacing:
+Serve para dar espaçamento entre as letras ou entre as palavras.
+
+---------------------------------
+
+line-height:
+Cria espaço entre as linhas.
+
+---------------------------------
+
+text-transform:
+Serve para transformar em maiusculas ou minusculas.
+Pode ser uppercase (todas maiusculas), lowercase (todas minusculas) ou Capitalize (primeira letra de cada palavra maiuscula).
+
+---------------------------------
+
+text-decoration:
+Serve para acrescentar uma linha tipo sublinhado nas palavras, podendo ser: underline (sublinhado) | overline (linha por cima) | line-through (tachado)
+Podemos também adicionar estilização a estas linhas tais como: wavy | dotted | double | dashed | solid.
+
+Se quisermos por exmeplo um sublinhado de cor vermelha com a linha em forma de "ondinhas", colocamos = text-decoration: underline wavy red;
+
+---------------------------------
+
+text-align:
+Serve para alinhar o texto, podendo ser de qualquer forma = left, right, center, justify (mais conhecido como "justificado")..
+
+---------------------------------
+
+text-shadow:
+Serve para inserir sombras no texto, os valores colocados são equivalentes ao seguinte = posição y | posição x | espalhamento de blur | cor da sombra.
+Exemplo:
+
+    text-shadow: 1px 1px 1px red,
+                 1px 1px 1px green;
+
+---------------------------------
+
+COMO FAZER UM SHORTHAND USANDO O "FONT"
+
+pode ser feito um shorthand com as propriedades abaixo:
+-style, -variant, -weight, -stretch, -size, line-height e -family.
+
+Exemplo = 
+font: italic normal bold normal 2em/2 Helvetica, Arial, sans-serif;
+
+---------------------------------
+
+OBS.: Foi colocado 2 font-family pois a ultima colocada foi importada com link através do Google fonts e sendo assim,
+a ultima font-family do CSS é a que será usada, porém caso haja algum impeditivo para a mesma ser aplicada, a página irá
+usar o font-family anteriormente declarado.
+
+*/
+

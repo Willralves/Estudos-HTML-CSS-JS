@@ -1,0 +1,42 @@
+
+.box {
+   width: 50px;
+   height: 50px;
+   margin-bottom: 8px;
+}
+
+.box1 {
+   background-color: red;
+   position: relative;
+   left: 0px;
+}
+
+.box2 {
+   background-color: green;
+   position: relative;
+   left: 0px;
+}
+
+.box3 {
+   background-color: blue;
+   position: relative;
+   left: 0px;
+}
+
+
+
+
+
+/*
+
+POSITION:
+
+postion: relative = libera 5 propriedades sendo elas: (top, right, bottom, left e z-index)
+O relative é relativo aos elementos da pagina.
+
+postion: absolute = libera 5 propriedades sendo elas: (top, right, bottom, left e z-index)
+O absolute é absoluto em relação á pagina e não aos elementos, sendo assim ele pode acabar ficando por cima de algum elemento.
+
+position: fixed = trava o elemento na página, ou seja, quando a página for rolada com scroll o elemento não irá se meexer.
+
+*/

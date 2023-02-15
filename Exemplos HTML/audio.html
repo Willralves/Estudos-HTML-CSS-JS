@@ -1,0 +1,35 @@
+<!-- Adicionar audio à pagina -->
+
+<audio 
+controls
+autoplay
+preload="auto"
+loop
+muted
+>
+
+<source src="./assets/viper.mp3" type="audio/mp3">
+<source src="./assets/viper.ogg" type="audio/ogg">
+<p>Seu navegador não suporta audio!</p>
+
+</audio>
+
+
+
+<!--
+
+controls = tag colocada para liberar os controladores de play/pause do audio.
+
+autoplay = inicia tocando o audio automaticamente
+
+preload = 
+"auto" (inicia o carregamento do audio antes de clicar em play)
+"metadata" (carrega somente o basico que é necessário para entender o tamanho do conteúdo do audio)
+"none "(não faz preload de nada antes do usuário apertar o play)      
+
+loop = quando o audio chegar no final, ele irá voltar a tocar do inicio novamente em looping.
+
+muted = para que o audio inicie mutado, sem som.
+
+
+-->
