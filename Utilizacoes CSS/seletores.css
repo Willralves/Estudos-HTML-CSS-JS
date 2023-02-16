@@ -1,0 +1,41 @@
+/*
+SELETOR DE ELEMENTO:
+*/
+
+h1 {
+    font-size: large;
+    color: blue;
+}
+
+/*
+SELETOR DE ID:
+*/
+
+#nomeDoId {
+    color: yellow;
+}
+
+/*
+SELETOR DE CLASSE:
+*/
+
+.nomeDaClasse {
+    color: aqua;
+}
+
+/*
+SELETOR DE ATRIBUTOS: - Muda a aparencia de todos os elementos que contiverem o atributo mencionado.
+*/
+
+[title] {
+    color: aquamarine;
+}
+
+/*
+SELETOR DE PSEUDO-CLASSE: - Para quando houver alguma ação (no caso o hover é para quando usuario passar mouse por cima).
+*/
+
+p:hover {
+    color: red;
+}
+
