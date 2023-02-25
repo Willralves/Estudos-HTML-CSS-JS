@@ -1,0 +1,1 @@
+console.log("Rodando o index.js via script do package.json")
