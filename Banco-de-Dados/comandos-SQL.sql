@@ -111,11 +111,13 @@ SELECT * FROM aluno WHERE matricula IS NOT NULL
 -- INSERT INTO (Insere na tabela "aluno", dentro dos campos entre parenteses os valores citados na mesma ordem após VALUES)
 INSERT INTO aluno (nome, cpf, responsavel) VALUES ("William", 555888321194, "Ariovaldo")
 
+-- UPDATE (Altera na tabela "aluno", o "nome" e o "responsavel" para os descritos ONDE a matricula for igual a 2.)
+UPDATE aluno SET nome = "Mariano Soares", responsavel = "Marcio Soares" WHERE matricula = 2
 
+-- DELETE (Deleta na tabela "aluno", todo o registro do aluno que tiver a matricula de numero 3.)
+DELETE FROM aluno WHERE matricula = 3
 
-
-
-
+--OBS.: Não esquecer de usar o comando WHERE quando usarem os comandos UPDATE ou DELETE, caso contrário irá atualizar ou deletar TODOS OS DADOS.
 
 
 
